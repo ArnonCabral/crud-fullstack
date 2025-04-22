@@ -1,0 +1,15 @@
+:root {
+  --roxo: #6B21A8;
+  --roxo-escuro: #581C87;
+  --branco: #ffffff;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+.btn-purple {
+  background-color: var(--roxo);
+  color: var(--branco);
+}
+.btn-purple:hover {
+  background-color: var(--roxo-escuro);
+}
+.text-purple { color: var(--roxo); }
