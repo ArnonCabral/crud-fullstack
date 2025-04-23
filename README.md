@@ -8,7 +8,7 @@ Ele foi dividido em **backend** e **frontend**, e utiliza as seguintes tecnologi
 ## 🌐 Demonstração ao vivo
 
 - 🔗 **Frontend (Netlify):**  
-  https://crud-usuarios-arnon.netlify.app  
+  https://crudfull.netlify.app  
 - 🔗 **Repositório GitHub:**  
   https://github.com/ArnonCabral/crud-usuarios-node-react  
 
