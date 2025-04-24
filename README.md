@@ -23,30 +23,32 @@ Ele foi dividido em **backend** e **frontend**, e utiliza as seguintes tecnologi
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
-crud-usuarios-node-react/ 
-   ├── backend/ # API REST em Node.js + TypeScript 
-   │ ├── src/ 
-   │ │ ├── controllers/ # Lógica de rotas (list, create, update, delete) 
-   │ │ ├── database.ts # Conexão MySQL via mysql2 
-   │ │ ├── models/ # Tipagens e interfaces 
-   │ │ └── server.ts # Configuração do Express + rotas 
-   │ ├── .env # Variáveis de ambiente (DB_HOST, DB_USER, …) 
-   │ ├── package.json 
-   │ └── tsconfig.json 
-   │ ├── frontend/ # SPA React + TypeScript + Vite + Bootstrap 
-   │ ├── src/ 
-   │ │ ├── api/ # Cliente Axios configurado 
-   │ │ ├── pages/ # UsersPage (lista) e UserFormPage (formulário) 
-   │ │ ├── App.tsx # Rotas e layout global 
-   │ │ └── main.tsx # Ponto de entrada 
-   │ ├── public/ 
-   │ ├── index.html # HTML base (importa Poppins, Bootstrap) 
-   │ ├── package.json 
-   │ └── vite.config.ts 
-   │ └── README.md # Este arquivo
-
+```plaintext
+crud-usuarios-node-react/
+├── backend/                # API REST em Node.js + TypeScript
+│   ├── src/
+│   │   ├── controllers/    # Lógica de rotas (list, create, update, delete)
+│   │   ├── database.ts     # Conexão MySQL via mysql2
+│   │   ├── models/         # Tipagens e interfaces
+│   │   └── server.ts       # Configuração do Express + rotas
+│   ├── .env                # Variáveis de ambiente (DB_HOST, DB_USER, …)
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── frontend/               # SPA React + TypeScript + Vite + Bootstrap
+│   ├── src/
+│   │   ├── api/            # Cliente Axios configurado
+│   │   ├── pages/          # UsersPage (lista) e UserFormPage (formulário)
+│   │   ├── App.tsx         # Rotas e layout global
+│   │   └── main.tsx        # Ponto de entrada
+│   ├── public/
+│   ├── index.html          # HTML base (importa Poppins, Bootstrap)
+│   ├── package.json
+│   └── vite.config.ts
+│
+└── README.md
 
 
 ---
