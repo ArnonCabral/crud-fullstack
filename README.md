@@ -3,17 +3,6 @@
 Este projeto é uma aplicação completa de **CRUD (Create, Read, Update, Delete)** de usuários, desenvolvida com foco em **performance**, **boas práticas**, **acessibilidade** e **design responsivo**.  
 Ele foi dividido em **backend** e **frontend**, e utiliza as seguintes tecnologias:
 
----
-
-## 🌐 Demonstração ao vivo
-
-- 🔗 **Frontend (Netlify):**  
-  https://crudfull.netlify.app  
-- 🔗 **Repositório GitHub:**  
-  https://github.com/ArnonCabral/crud-usuarios-node-react  
-
----
-
 ## 🧰 Tecnologias e Ferramentas
 
 | Camada     | Tecnologias                                                                                                                                      |
@@ -22,6 +11,15 @@ Ele foi dividido em **backend** e **frontend**, e utiliza as seguintes tecnologi
 | Frontend   | React, TypeScript, Vite, Bootstrap, Axios, React Router Dom                                                                                      |
 | Testes API | Postman                                                                                                                                          |
 | Deploy     | Netlify (frontend)                                                                                                                               |
+
+---
+
+## 🌐 Demonstração ao vivo
+
+- 🔗 **Frontend (Netlify):**  
+  https://crudfull.netlify.app  
+- 🔗 **Repositório GitHub:**  
+  https://github.com/ArnonCabral/crud-usuarios-node-react  
 
 ---
 
